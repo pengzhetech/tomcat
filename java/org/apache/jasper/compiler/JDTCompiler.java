@@ -13,7 +13,8 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */
+ *//*
+
 package org.apache.jasper.compiler;
 
 import java.io.BufferedOutputStream;
@@ -52,6 +53,7 @@ import org.eclipse.jdt.internal.compiler.env.NameEnvironmentAnswer;
 import org.eclipse.jdt.internal.compiler.impl.CompilerOptions;
 import org.eclipse.jdt.internal.compiler.problem.DefaultProblemFactory;
 
+*/
 /**
  * JDT class compiler. This compiler will load source dependencies from the
  * context classloader, reducing dramatically disk access during
@@ -60,14 +62,17 @@ import org.eclipse.jdt.internal.compiler.problem.DefaultProblemFactory;
  * Based on code from Cocoon2.
  *
  * @author Remy Maucherat
- */
+ *//*
+
 public class JDTCompiler extends org.apache.jasper.compiler.Compiler {
 
     private final Log log = LogFactory.getLog(JDTCompiler.class); // must not be static
 
-    /**
+    */
+/**
      * Compile the servlet from .java file to .class file
-     */
+     *//*
+
     @Override
     protected void generateClass(Map<String,SmapStratum> smaps)
         throws FileNotFoundException, JasperException, Exception {
@@ -489,3 +494,4 @@ public class JDTCompiler extends org.apache.jasper.compiler.Compiler {
         }
     }
 }
+*/
