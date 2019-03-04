@@ -12,8 +12,10 @@ public class HelloWorld extends HttpServlet {
     private String message;
 
     public void init() {
+        System.out.println("注意! 注意 !Servlet被初始化了");
         // 执行必需的初始化
-        message = "Hello World Tomcat";
+        message = "Debug Tomcat";
+
     }
 
     public void doGet(HttpServletRequest request,
