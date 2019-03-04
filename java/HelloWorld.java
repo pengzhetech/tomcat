@@ -30,6 +30,7 @@ public class HelloWorld extends HttpServlet {
     }
 
     public void destroy() {
+        System.out.println("注意: 注意:::Servlet开始销毁了");
         // 什么也不做
     }
 }
